@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesone/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Add-To-Cart</title>
+</head>
+
+
+<body class="">
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-10">
+                <div class="row">
+                    <div class="col-12 col-lg-8 border-right min-vh-100 p-3">
+
+                        <div class="vh-100 overflow-scroll">
+
+                            <div class="d-flex justify-content-between align-items-end rounded mt-3 mb-3  position-sticky p-3 bg-white shadow-sm nav-bar" style="top: 0; z-index: 1000;">
+
+                                <div class="nav-bar-text" >
+                                    <h3 class="text-danger mb-0">My Shop</h3>
+                                    <p class="text-muted mb-0">Bootstrap & jQuery</p>
+                                </div>
+        
+        
+                                <div class="form">
+                                    <div class="form-row">
+                                        <div class="mr-2">
+                                            <input type="text" class="form-control text-capitalize" id="search" placeholder="Search Item">
+                                        </div>
+                                        <div class="">
+                                            <select class="custom-select" name="" id="category">
+                                                <option value="0">All Category</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-icon d-block d-lg-none">
+                                    <div class="">
+                                        <button class="btn btn-danger">
+                                            <i class="fas fa-list"></i>
+                                        </button>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                            <div id="product" class="card-columns">
+                                
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 col-lg-4 left-side">
+                        
+                        <div class="vh-100 overflow-scroll">
+
+                            <div class="d-flex justify-content-between align-items-end rounded mt-3 mb-3 position-sticky p-3 bg-white shadow-sm" style="top: 0; z-index: 1001;" >
+
+                                <div class="" >
+                                    <h3 class="text-danger mb-0">My Cart</h3>
+                                    <p class="text-muted mb-0">Added Items</p>
+                                </div>
+        
+        
+                                <div class="">
+                                    <h4>
+                                        <span class="item-in-cart-count">0</span>
+                                        <i class="fas fa-shopping-cart text-danger menu-icon-1"></i>
+                                    </h4>
+                                </div>
+    
+                            </div>
+    
+                            <div id="cart" class="mb-3">
+    
+                            </div>
+    
+                            <div class="total p-3 bg-white rounded position-sticky" style="bottom: 0;" >
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+    
+
+</body>
+</html>
